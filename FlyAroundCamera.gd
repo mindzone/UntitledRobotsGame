@@ -13,7 +13,6 @@ extends Camera3D
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	var direction := Vector3.ZERO
